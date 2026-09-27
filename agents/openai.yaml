@@ -1,0 +1,14 @@
+interface:
+  display_name: Artifact Studio
+  short_description: Project-faithful artifacts with verified browser previews
+  default_prompt: Use $artifact-studio to analyze this project, reuse its components
+    and styles, and build a functional artifact with a verified browser preview.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
